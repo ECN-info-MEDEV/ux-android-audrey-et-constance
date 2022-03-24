@@ -11,12 +11,29 @@
         android:theme="@style/Theme.OrganizationApplication">
         <activity
             android:name=".MainActivity"
+            android:label = "Recettes"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".RecetteLectureActivity"
+            android:label = "Recette Lecture"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=
+                    "com.example.organizationapplication.MainActivity" />
+        </activity>
+        <activity android:name=".RecetteEditionActivity"
+            android:label = "Recette Edition"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=
+                    "com.example.organizationapplication.MainActivity" />
         </activity>
     </application>
 
