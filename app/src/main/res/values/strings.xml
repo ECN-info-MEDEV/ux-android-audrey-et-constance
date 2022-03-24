@@ -35,4 +35,6 @@
     <string name="temps_30_min">30 min</string>
     <string name="temps_40_min">40 min</string>
     <string name="menu">Menu</string>
+    <string name="liste_etapes">Liste des étapes</string>
+    <string name="liste_ingredients">Liste des ingrédients</string>
 </resources>
